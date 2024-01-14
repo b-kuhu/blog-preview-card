@@ -1,0 +1,50 @@
+body{
+    display: flex;   
+    justify-content: center;
+}
+main{
+    font-family: 'Figtree';
+    width: 330px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3%; 
+}
+.illustration-article{
+    height: 50%;
+    width:90%;
+    border-radius: 4%;
+    margin-top:15px;
+}
+p span{
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 600;
+    padding: 5px;
+}
+.image-avatar{
+    width: 30px;
+    height: 30px;
+}
+.content{
+    margin: 20px;
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content > h1,.summary{
+    margin: 0;
+}
+.summary{
+    width: 80%;
+}
+.instructor-profile{
+    display: flex;
+    margin-top: 5px;
+}
+.instructor-profile > p{
+    padding-left: 15px;
+}
