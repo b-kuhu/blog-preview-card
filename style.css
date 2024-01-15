@@ -46,16 +46,20 @@ p span{
 }
 .date-published{
     margin: 15px 0;
+    font-weight: 600;
 }
 .title{
     margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
 }
 .title:hover{
     color: hsl(47, 88%, 63%);;
 }
 .summary{
-    margin: 10px 0;
+    margin: 8px 0;
     color: hsl(0, 0%, 50%);
+    font-size: 16px;
 }
 .instructor-profile{
     display: flex;   
