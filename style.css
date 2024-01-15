@@ -8,12 +8,12 @@ body{
 main{
     background-color: hsl(0, 0%, 100%);
     font-family: 'Figtree';
-    width: 320px;
-    height: 400px; 
+    width: 380px;
+    height: 450px; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-right-width: 6px;
     border-bottom-width: 6px ;
     border-radius: 3%; 
@@ -57,7 +57,7 @@ p span{
     color: hsl(47, 88%, 63%);;
 }
 .summary{
-    margin: 8px 0;
+    margin: 15px 0;
     color: hsl(0, 0%, 50%);
     font-size: 16px;
 }
@@ -69,5 +69,5 @@ p span{
 }
 main:hover{   
     border-color: black;
-    border-width: 2px 9px 9px 2px; 
+    border-width: 1px 8px 8px 1px; 
 }
