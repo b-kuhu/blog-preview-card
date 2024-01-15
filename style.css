@@ -1,12 +1,15 @@
 body{
-    display: flex;   
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 main{
+    background-color: hsl(0, 0%, 100%);
     font-family: 'Figtree';
-    width: 330px;
-    height: 400px;
-    position: absolute;
+    width: 320px;
+    height: 400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,13 +19,14 @@ main{
 .illustration-article{
     height: 50%;
     width:90%;
-    border-radius: 4%;
+    border-radius: 6%;
     margin-top:15px;
 }
 p span{
     background-color: hsl(47, 88%, 63%);
     font-weight: 600;
     padding: 5px;
+    border-radius: 10%;
 }
 .image-avatar{
     width: 30px;
@@ -35,16 +39,28 @@ p span{
     display: flex;
     flex-direction: column;
 }
-.content > h1,.summary{
+.content > h1,.summary,p{
     margin: 0;
 }
+.date-published{
+    margin: 15px 0;
+}
+.title{
+    margin-top: 10px;
+}
+.title:hover{
+    color: hsl(47, 88%, 63%);;
+}
 .summary{
-    width: 80%;
+    margin: 10px 0;
+    color: hsl(0, 0%, 50%);
 }
 .instructor-profile{
-    display: flex;
-    margin-top: 5px;
+    display: flex;   
 }
 .instructor-profile > p{
-    padding-left: 15px;
+    padding: 7px; 
+}
+main:hover{
+ outline: 10px solid black;
 }
